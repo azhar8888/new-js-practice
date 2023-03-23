@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 id="demo"></h1>
+    <h1 id="demo1"></h1>
+    <script>
+        const sortmethod = ["zaker", 1, "125", '225', 400, 20, "25", "zaki", "ajhghar", "bhaves", "60", 24, "26", 100, 'bhangesh', "chomu", "gomu"];
+        sortmethod.sort();
+        document.getElementById("demo").innerHTML = sortmethod;
+        sortmethod.reverse();
+        document.getElementById("demo1").innerHTML = sortmethod;
+        const array = [4, , 5, 100, 200, 545, 6846, 2, 1];
+        array.sort((a, b) => a - b);
+        console.log(array);
+        const maxValue = array[array.length - 1];
+        console.log(maxValue);
+        const minValue = array[0];
+        console.log(minValue);
+        const array1 = [4, , 5, 100, 200, 545, 6846, 2, 1];
+        const maxValue1= Math.max.apply(null,array1);
+        console.log(maxValue1);
+        const minValue1= Math.min.apply(null,array1);
+        console.log(minValue1);
+
+    </script>
+</body>
+
+</html>

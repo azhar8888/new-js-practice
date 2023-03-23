@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p id="demo"></p>
+    <script>
+        const cars = [];
+        cars.push("scorpioN");
+        cars.push("maruti");
+        cars.push("cruizer");
+        cars.push("tata");
+        cars.pop();
+        cars.shift();
+
+        const person = [];
+        person.push({ firstName: "x", lastName: "d" });
+        person.push({ fiestNamne: "a", lastName: "y" });
+        person.push({ carName: "fiesta", lastno: "5454" });
+        person.pop();
+        person.shift();
+        document.getElementById("demo").innerHTML = person;
+
+
+    </script>
+
+</body>
+
+</html>
